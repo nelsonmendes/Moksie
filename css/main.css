@@ -23,3 +23,22 @@
     background-color: #FFF;
 }
 body { padding-top: 70px; }
+
+.navbar-moksie
+{
+    padding-left: 100px;
+}
+#Moksie_title{
+    color:white;
+}
+
+#links_pr{
+    color:white;
+}
+.navbar
+{
+background: -webkit-linear-gradient(90deg, red, blue); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(90deg, red, blue); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(90deg, red, blue); /* For Firefox 3.6 to 15 */
+background: linear-gradient(90deg, red, blue); /* Standard syntax (must be last) */
+}
