@@ -26,7 +26,7 @@ body { padding-top: 107px; }
 
 .navbar-moksie
 {
-    padding-top: 26px;
+    padding-top: 13px;
     padding-left: 100px;
 }
 #Moksie_title{
@@ -47,8 +47,15 @@ body { padding-top: 107px; }
     color:white;
 }
 
+#carrousel{
+    width:100%;
+}
+
 a#links_drop{
     color:black;
+}
+#logo{
+    padding-bottom: 13px;
 }
 .navbar
 {
@@ -96,3 +103,19 @@ a#links_drop{
 }
 
 
+/*carrosel*/
+
+#wrapper {
+    width: 900px;
+    height: 400px;
+    margin: 0px 0 0 -450px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+#carousel img {
+    display: block;
+    float: left;
+    border: none;
+    position: relative;
+}
