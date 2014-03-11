@@ -1,7 +1,7 @@
 $(function() {
 	var _center = {
 		width: 600,
-		height: 400,
+		height: 500,
 		marginLeft: 0,
 		marginTop: 0,
 		marginRight: 0
