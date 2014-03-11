@@ -41,6 +41,15 @@ body { padding-top: 107px; }
         padding-top: 44px;
     color:white;
 }
+#links_pr:focus{
+    background-color: #962f2f;
+    padding-top: 44px;
+    color:white;
+}
+
+a#links_drop{
+    color:black;
+}
 .navbar
 {
     height: 105px;
