@@ -11,26 +11,24 @@
 			<link href="css/bootstrap.min.css" rel="stylesheet">
 			<link href="css/main.css" rel="stylesheet">
 			<!--<link rel="shortcut icon" href="../img/" /> Icon da Moksie -->
-
-
 		</head>
 		<body>
 			<!-- HEADER START -->   
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header navbar-moksie">
-     <img id="logo" src="images/logo_menu.png" alt="image">
+    <div class="navbar-header">
+     
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right ">
-      	<li ><a id="links_pr" href="#">Home</a></li>
-      	<li><a id="links_pr" href="#">About</a></li>
-        <li><a id="links_pr" href="#">Projects</a></li>
-      	<li><a id="links_pr" href="#">Team</a></li>
-      	<li><a id="links_pr" href="#">Contacts</a></li>
+      	<li ><a id="links_pr" href="#">HOME</a></li>
+      	<li><a id="links_pr" href="#">ABOUT</a></li>
+        <li><a id="links_pr" href="#">PROJECTS</a></li>
+      	<li><a id="links_pr" href="#">TEAM</a></li>
+      	<li><a id="links_pr" href="#">CONTACTS</a></li>
         <!--
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -49,77 +47,45 @@
 </nav>
 
 
-<!-- HEADER END-->   
-<div>
 
-<div id="wrapper">
-    <div id="carousel">
-        <img src="images/tamanho_slide.png" width="700" height="400" />
-        <img src="images/tamanho_slide.png" width="600" height="400" />
-        <img src="images/tamanho_slide.png" width="900" height="400" />
-        <img src="images/tamanho_slide.png" width="600" height="500" />
-        <img src="images/tamanho_slide.png" width="600" height="400" />
-    </div>
-</div>
+
+<!-- HEADER END-->  
 			
 			<!-- Carrossel para as imagens -->
-<div class="container">
-    <!--
-    <div  id="carrousel" class="row">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="http://placehold.it/1200x500/3498db/2980b9" alt="First slide">
-                        <div class="carousel-caption">
-                            <h3>
-                                First slide</h3>
-                            <p>
-                                Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="http://placehold.it/1200x500/9b59b6/8e44ad" alt="Second slide">
-                        <div class="carousel-caption">
-                            <h3>
-                                Second slide</h3>
-                            <p>
-                                Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="http://placehold.it/1200x500/34495e/2c3e50" alt="Third slide">
-                        <div class="carousel-caption">
-                            <h3>
-                                Third slide</h3>
-                            <p>
-                                Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </div>
-                    </div>
-                </div>
-                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control"
-                        href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right">
-                        </span></a>
-            </div>
-            <div class="main-text hidden-xs">
-                <div class="col-md-12 text-center">
-                    <h1>
-                        Static Headline And Content</h1>
-                    <h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </h3>
-                    <div class="">
-                        <a class="btn btn-clear btn-sm btn-min-block" href="http://www.jquery2dotnet.com/">Login</a><a class="btn btn-clear btn-sm btn-min-block"
-                            href="http://www.jquery2dotnet.com/">Registration</a></div>
-                </div>
-            </div>
-    -->
+<!--  Carousel - consult the Twitter Bootstrap docs at 
+      http://twitter.github.com/bootstrap/javascript.html#carousel -->
+<div id="carrousel" class="carousel slide"><!-- class of slide for animation -->
+  <div class="carousel-inner">
+    <div class="item active"><!-- class of active since it's the first item -->
+      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="carousel-caption">
+        <p>Caption text here</p>
+      </div>
     </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="carousel-caption">
+        <p>Caption text here</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="carousel-caption">
+        <p>Caption text here</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="carousel-caption">
+        <p>Caption text here</p>
+      </div>
+    </div>
+  </div><!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+    <a class="carousel-control left" href="#carrousel" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#carrousel" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
     <div id="icons_done" class="row">
         <div class="project-icons container">
             <div class="col-md-3 project-icon icon-pocket container">
@@ -144,4 +110,11 @@
         <script src="js/jquery.carouFredSel.js" type="text/javascript"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/main.js"></script>
+        <script>
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 2000
+    });
+  });
+</script>
 	</html>
