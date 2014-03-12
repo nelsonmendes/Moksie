@@ -1,108 +1,72 @@
-body { 
+body {
 }
 p{font-family:'Dosis';}
-.main-text
-{
-    position: absolute;
-    top: 50px;
-    width: 96.66666666666666%;
-    color: #FFF;
-}
-.btn-min-block
-{
-    min-width: 170px;
-    line-height: 26px;
-}
-.btn-clear
-{
-    color: #FFF;
-    background-color: transparent;
-    border-color: #FFF;
-    margin-right: 15px;
-}
-.btn-clear:hover
-{
-    color: #000;
-    background-color: #FFF;
-}
-
-.navbar-moksie
-{
-    
-
-}
 #Moksie_title{
-    color:white;
+color:white;
 }
-
 #carousel-example-generic{
-    width:100%;
+width:100%;
 }
-
 #links_pr{
-        padding-top: 44px;
-        font-family:'Dosis';
-        font-weight:bold;
-    color:white;
+padding-top: 44px;
+font-family:'Dosis';
+font-weight:bold;
+color:black;
 }
-#links_pr:focus{
-    background-color: #962f2f;
-    padding-top: 44px;
-    color:white;
+#logo{
+    height:105px;
 }
-
-#carrousel{
-    width:100%;
+.topbarmoksie{
+    max-width: 1280px;
+    max-height: 105px;
+    margin:0 auto;
+    top:50%;
 }
-
-.navbar
-{
-    height: 105px;
-    width:1281px;
+.navbar{
     background: #fff url(../images/header.svg) 0 0 no-repeat;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  background-size: 100% 100%;
-  border-radius: 0px;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    background-size: 100% 100%;
+}
+#carrousel{
+width:100%;
 }
 
 .icon-pocket {
-    background: #fff url(../images/pocket_icon.png) 0 0 no-repeat;
-    background-position:center;
+background: #fff url(../images/pocket_icon.png) 0 0 no-repeat;
+background-position:center;
 }
-
 .icon-pocket:hover {
-    background: #fff url(../images/pocket_icon_hover.png) 0 0 no-repeat;
-    background-position:center;
+background: #fff url(../images/pocket_icon_hover.png) 0 0 no-repeat;
+background-position:center;
 }
-
 .icon-travel {
-    background: #fff url(../images/travel_icon.png) 0 0 no-repeat;
-    background-position:center;
+background: #fff url(../images/travel_icon.png) 0 0 no-repeat;
+background-position:center;
 }
-
 .icon-travel:hover {
-    background: #fff url(../images/travel_icon_hover.png) 0 0 no-repeat;
-    background-position:center;
+background: #fff url(../images/travel_icon_hover.png) 0 0 no-repeat;
+background-position:center;
 }
-
 .icon-executive {
-    background: #fff url(../images/executive_icon.png) 0 0 no-repeat;
-    background-position:center;
+background: #fff url(../images/executive_icon.png) 0 0 no-repeat;
+background-position:center;
 }
-
 .icon-sounds {
-    background: #fff url(../images/sounds_icon.png) 0 0 no-repeat;
-    background-position:center;
+background: #fff url(../images/sounds_icon.png) 0 0 no-repeat;
+background-position:center;
+}
+.project-icon {
+text-align: center;
+padding-top: 10%;
+padding-bottom: 10%;
+background-color: rgb(230, 230, 230);
 }
 
-.project-icon {
-    text-align: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-color: rgb(230, 230, 230);
+@media (min-width: 926px) { /* Insert your own breakpoint as needed */
+ .mobile-menu { display: none; }
+}
+ 
+@media (max-width: 925px) { /* Insert your own breakpoint as needed */
+ .mobile-menu { display: block; margin-bottom: 9px;}
+ nav#mainNav .nav { display: none; }
+ nav#mainNav.navbar .nav>li { width: 100%; }
 }
