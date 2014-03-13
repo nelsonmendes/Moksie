@@ -34,9 +34,34 @@ color:black;
     background: url(../images/logo_menu.png) 0 0 no-repeat;
     background-size: 100% 100%;
 }
+
 #carrousel{
 width:100%;
 }
+.wwO{
+    max-width: 1280px;
+    height:500px;
+    margin:0px;
+    background: url(../images/what_we_offer_background.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+#links_wwO{
+    margin-top: 150px;
+    margin-left: 200px;
+    font-family:'Dosis';
+    font-weight:bold;
+    font-size: 180%;
+    color:#3d0000;
+    display: inline-block;
+}
+#links_wwO:hover{
+    color:#e6e6e6;
+    font-family:'Dosis';
+    text-decoration:none;
+    font-weight:bold;
+    background: 
+}
+
 
 .icon-pocket {
 background: #fff url(../images/pocket_icon.png) 0 0 no-repeat;
