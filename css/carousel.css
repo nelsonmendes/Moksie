@@ -4,8 +4,9 @@
 
 /* Carousel Styles */
 .carousel-indicators .active {
-    background-color: #96352f;
+    background-color: #97352f;
 }
+
 
 .carousel-inner img {
     width: 100%;
