@@ -38,39 +38,120 @@ color:black;
     background: url(../images/logo_menu.png) 0 0 no-repeat;
     background-size: 100% 100%;
 }
+
 #carrousel{
 width:100%;
 }
+.wwO{
+    max-width: 1280px;
+    height:500px;
+    margin:0px;
+    background: url(../images/what_we_offer_background.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+#links_wwO{
+    margin-top: 150px;
+    margin-left: 200px;
+    font-family:'Dosis';
+    font-weight:bold;
+    font-size: 180%;
+    color:#3d0000;
+    display: inline-block;
+}
+#links_wwO:hover{
+    color:#e6e6e6;
+    font-family:'Dosis';
+    text-decoration:none;
+    font-weight:bold;
+}
+
 
 .icon-pocket {
-background: #fff url(../images/pocket_icon.png) 0 0 no-repeat;
-background-position:center;
+    background: #fff url(../images/pocket_icon.png) 0 0 no-repeat;
+    background-position:center;
+    max-width: 100%;
 }
+
 .icon-pocket:hover {
-background: #fff url(../images/pocket_icon_hover.png) 0 0 no-repeat;
-background-position:center;
+    background: #fff url(../images/pocket_icon_hover.png) 0 0 no-repeat;
+    background-position:center;
+    max-width: 100%;
 }
+
 .icon-travel {
-background: #fff url(../images/travel_icon.png) 0 0 no-repeat;
-background-position:center;
+    background: #fff url(../images/travel_icon.png) 0 0 no-repeat;
+    background-position:center;
+    max-width: 100%;
 }
 .icon-travel:hover {
-background: #fff url(../images/travel_icon_hover.png) 0 0 no-repeat;
-background-position:center;
+    background: #fff url(../images/travel_icon_hover.png) 0 0 no-repeat;
+    background-position:center;
+    max-width: 100%;
 }
 .icon-executive {
-background: #fff url(../images/executive_icon.png) 0 0 no-repeat;
-background-position:center;
+    background: #fff url(../images/executive_icon.png) 0 0 no-repeat;
+    background-position:center;
+    max-width: 100%;
 }
 .icon-sounds {
-background: #fff url(../images/sounds_icon.png) 0 0 no-repeat;
-background-position:center;
+    background: #fff url(../images/sounds_icon.png) 0 0 no-repeat;
+    background-position:center;
+    max-width: 100%;
+
 }
 .project-icon {
-text-align: center;
-padding-top: 10%;
-padding-bottom: 10%;
-background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(230, 230, 230);
+}
+
+.projects-home {
+    max-width: 100%;
+    background: url("../images/back_proj_home.png") no-repeat;
+    background-size: contain;
+    min-height: 501px;
+    position: relative;
+}
+
+.base-projects-home {
+    max-width: 100%;
+    background: url("../images/back_proj_home.png") no-repeat;
+    background-size: contain;
+    min-height: 501px;
+    padding:0px;
+}
+
+.pocket-box {
+    position: absolute;
+    padding: 6%;
+    border: 1px;
+    left: 20%;
+    bottom: 20%;
+}
+
+.travel-box {
+    position: absolute;
+    padding: 6%;
+    border: 1px;
+    left: 36%;
+    bottom: 34%;
+}
+
+.executive-box {
+    position: absolute;
+    padding: 6%;
+    border: 1px;
+    left: 52%;
+    bottom: 48%;
+}
+
+.sounds-box {
+    position: absolute;
+    padding: 6%;
+    border: 1px;
+    left: 68%;
+    bottom: 62%;
 }
 
 @media (min-width: 926px) { /* Insert your own breakpoint as needed */
