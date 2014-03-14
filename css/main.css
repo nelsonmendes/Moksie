@@ -137,6 +137,7 @@ background: url("../images/back_proj_home.png") no-repeat;
 background-size: contain;
 min-height: 501px;
 padding:0px;
+margin-top: 0px !important;
 }
 
 .pocket-box {
