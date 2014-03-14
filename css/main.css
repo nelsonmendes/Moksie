@@ -12,6 +12,7 @@ padding-top: 44px;
 font-family:'Dosis';
 font-weight:bold;
 color:black;
+    background-color: #96352f
 }
 #logo{
     height:105px;
@@ -22,6 +23,9 @@ color:black;
     margin:0 auto;
     top:50%;
 }
+
+
+
 .navbar{
     max-width: 1280px;
     margin:0 auto;
