@@ -20,7 +20,7 @@ width:100%;
 .offer {
     background: url("../images/what_we_offer_background.png") no-repeat;
     background-size: cover;
-    min-height: 455px;
+    min-height: 500px;
 }
 
 #links_wwO{
@@ -46,14 +46,44 @@ padding-left: 0px;
 text-align: right;
 }
 
+.wwO-h1{
+    font-family:'Dosis';
+    font-size: 18pt;
+    color:#FFFFFF;
+    max-height: 50px;
+    max-width: 140px;
+}
+
+.wwO-h2{
+    font-family:'Dosis';
+    font-size: 10pt;
+    color:#FFFFFF;
+    max-height: 50px;
+    max-width: 140px;
+}
+
 .icon-solutions{
     background: url(../images/icon_solutions.svg) 0 0 no-repeat;
-    max-width: 100%;
+    max-width: 50px;
+    margin-left: 267px;
 }
 
 .icon-experience{
     background: url(../images/icon_experience.svg) 0 0 no-repeat;
-    max-width: 100%;
+    max-width: 50px;
+    margin-left: 250px;
+}
+
+.icon-strategy{
+    background: url(../images/icon_strategy.svg) 0 0 no-repeat;
+    max-width: 50px;
+    margin-left: 267px;
+}
+
+.icon-quality{
+    background: url(../images/icon_quality.svg) 0 0 no-repeat;
+    max-width: 50px;
+    margin-left: 250px;
 }
 
 .icon-pocket {
