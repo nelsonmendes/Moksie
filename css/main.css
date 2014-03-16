@@ -248,3 +248,69 @@ bottom: 48%;
 .team_down {
     background-color: #C63F36;
 }
+
+.footer{
+    min-height: 216px;
+    background-color: #3D0000;
+}
+
+.footer-icon-L {
+padding-top: 50px;
+padding-left: 0px;
+text-align: right;
+}
+
+.icon-moksie{
+    background: url(../images/moksie_polity2014.png) 0 0 no-repeat;
+    max-width: 112px;
+    margin-left: 267px;
+}
+
+#links_fo{
+    margin-right: 20px;
+    font-family:'Dosis';
+    color: #FFFFFF;
+    font-size:9pt;
+    font-weight:bold;
+}
+
+#linksList{
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+#linksList li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+#linksList a
+{
+text-decoration: inherit;
+}
+
+#linksList a:hover
+{
+color: #ED6F23;
+}
+
+.footer-icon{
+    padding-top: 16px;
+    padding-left: 0px;
+    float: left;
+}
+
+.icon-adress{
+    background: url(../images/icon_adress.svg) 0 0 no-repeat;
+    max-width: 20px;
+    margin-top: 72px;
+}
+
+.cenas{
+    color: #FFFFFF;
+    min-width: 300px;
+    max-height: 20px;
+    padding-top: 72px;
+}
