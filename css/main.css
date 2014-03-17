@@ -205,16 +205,87 @@ bottom: 48%;
     max-width: 100%;
 }
 
-.team_up {
-    background-color: #B75149;
-
+.team-content {
+    background-image: -webkit-linear-gradient(180deg, #B75149 94%, #96342f 0%, rgba(150,52,47,1) 52%, #B75149 52%);
+    background-image: -moz-linear-gradient(180deg, #96342f 0%,rgb(150,52,47) 52%,#B75149 52%,#B75149 94%);
+    background-image: -o-linear-gradient(180deg, #96342f 0%,rgb(150,52,47) 52%,#B75149 52%,#3d0000 94%);
+    background-image: linear-gradient(180deg, #B75149 0%,rgb(150,52,47) 52%,#C63F36 52%,#C63F36 94%);
 }
 
-.team_up h1 {
+.team h1 {
     margin-top: 40px;
     color: #ffffff;
+    padding-bottom: 70px;
+    text-align: left;
 }
 
-.team_down {
-    background-color: #C63F36;
+.team img {
+   padding-right: 10px;
+   padding-bottom: 15px;
+   max-width: 100%;
+}
+
+.team {
+    text-align: center;
+}
+
+.team p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.organization-chart .container h1{
+    position:relative;
+    top: 40px;
+    color: #3D0000;
+}
+
+.chart-icons {
+    position: relative;
+}
+
+.chart-icon-ceo {
+    position: relative;
+    top: 230px;
+}
+
+.chart-icon-design {
+    position: relative;
+    top: 152px;
+}
+
+.chart-icon-leaders {
+    position: relative;
+    top: 70px;
+}
+
+.chart-icon-quality {
+    position: relative;
+    top: 0px;
+}
+
+.organization-chart {
+    height: 540px;
+}
+
+.chart-icon-ceo:hover {
+    content: url(../images/icon_ceo_back_hover.svg);
+    position: relative;
+    top: 80px;
+}
+
+.chart-icon-design:hover {
+    content: url(../images/icon_designdepart_back_hover.svg);
+    position: relative;
+    top: 32px;
+}
+
+.chart-icon-leaders:hover {
+    content: url(../images/icon_leaders_back_hover.svg);
+    position: relative;
+}
+
+.chart-icon-quality:hover {
+    content: url(../images/icon_qualitydepart_back_hover.svg);
+    position: relative;
 }
