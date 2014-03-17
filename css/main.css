@@ -1,7 +1,15 @@
-body {
+html,body{
+width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body
+{
+    overflow-x: hidden;
     font-family:'Dosis';
 }
-
 /*Backgrounds*/
 .grey-background {
     background-color: #E6E6E6;
@@ -20,7 +28,7 @@ width:100%;
 .offer {
     background: url("../images/what_we_offer_background.png") no-repeat;
     background-size: cover;
-    min-height: 455px;
+    min-height: 500px;
 }
 
 #links_wwO{
@@ -46,14 +54,44 @@ padding-left: 0px;
 text-align: right;
 }
 
+.wwO-h1{
+    font-family:'Dosis';
+    font-size: 18pt;
+    color:#FFFFFF;
+    max-height: 50px;
+    max-width: 140px;
+}
+
+.wwO-h2{
+    font-family:'Dosis';
+    font-size: 10pt;
+    color:#FFFFFF;
+    max-height: 50px;
+    max-width: 140px;
+}
+
 .icon-solutions{
     background: url(../images/icon_solutions.svg) 0 0 no-repeat;
-    max-width: 100%;
+    max-width: 50px;
+    margin-left: 267px;
 }
 
 .icon-experience{
     background: url(../images/icon_experience.svg) 0 0 no-repeat;
-    max-width: 100%;
+    max-width: 50px;
+    margin-left: 250px;
+}
+
+.icon-strategy{
+    background: url(../images/icon_strategy.svg) 0 0 no-repeat;
+    max-width: 50px;
+    margin-left: 267px;
+}
+
+.icon-quality{
+    background: url(../images/icon_quality.svg) 0 0 no-repeat;
+    max-width: 50px;
+    margin-left: 250px;
 }
 
 .icon-pocket {
@@ -288,4 +326,97 @@ bottom: 48%;
 .chart-icon-quality:hover {
     content: url(../images/icon_qualitydepart_back_hover.svg);
     position: relative;
+}
+
+.footer{
+    min-height: 216px;
+    background-color: #3D0000;
+}
+
+.footer-icon-L {
+padding-top: 50px;
+padding-left: 0px;
+text-align: right;
+}
+
+.icon-moksie{
+    background: url(../images/moksie_polity2014.png) 0 0 no-repeat;
+    max-width: 112px;
+    margin-left: 205px;
+}
+
+#links_fo{
+    margin-right: 15px;
+    font-family:'Dosis';
+    color: #FFFFFF;
+    font-size:9pt;
+    font-weight:bold;
+}
+
+#linksList{
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+#linksList li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+#linksList a
+{
+text-decoration: inherit;
+}
+
+#linksList a:hover
+{
+color: #ED6F23;
+}
+
+.footer-icon{
+    padding-top: 16px;
+    padding-left: 0px;
+    float: left;
+}
+
+.icon-adress{
+    background: url(../images/icon_adress.svg) 0 0 no-repeat;
+    max-width: 20px;
+    margin-top: 72px;
+}
+
+.icon-phone{
+    background: url(../images/icon_phone.svg) 0 0 no-repeat;
+    max-width: 20px;
+    margin-top: 5px;
+}
+
+.icon-mail{
+    background: url(../images/icon_mail.svg) 0 0 no-repeat;
+    max-width: 20px;
+    margin-top: 5px;
+    margin-left: 360px;
+}
+
+.adress{
+    color: #FFFFFF;
+    min-width: 300px;
+    max-height: 20px;
+    padding-top: 72px;
+}
+
+.phone{
+    color: #FFFFFF;
+    min-width: 200px;
+    max-height: 20px;
+    padding-top: 5px;
+}
+
+.mail{
+    color: #FFFFFF;
+    min-width: 100px;
+    max-height: 20px;
+    padding-top: 3px;
 }
