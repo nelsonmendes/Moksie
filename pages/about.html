@@ -10,34 +10,40 @@
     <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,600,700' rel='stylesheet' type='text/css'>
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
     <!--<link rel="shortcut icon" href="../img/" /> Icon da Moksie -->
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"></a>
-        </div>
+<div id="topbarcss" class="container">
+    <nav class="navbar navbar-default" role="navigation" style="
+    margin-bottom: 0px;
+">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"></a>
+            </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a id="links_pr" href="../index.html">HOME</a></li>
-                <li class="active"><a id="links_pr" href="about.html">ABOUT</a></li>
-                <li><a id="links_pr" href="#">PROJECTS</a></li>
-                <li><a id="links_pr" href="#">TEAM</a></li>
-                <li><a id="links_pr" href="#">CONTACTS</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a id="links_pr" href="../index.html">HOME</a></li>
+                    <li class="active" accesskey=""><a id="links_pr" href="about.html">ABOUT</a></li>
+                    <li><a id="links_pr" href="#">PROJECTS</a></li>
+                    <li><a id="links_pr" href="#">TEAM</a></li>
+                    <li><a id="links_pr" href="#">CONTACTS</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</div>
 <!-- HEADER END-->
 
 <!-- Carrossel para as imagens -->
@@ -113,25 +119,50 @@
 </div>
 <div class="grey-background">
     <div class="container company">
-        <h2>THE COMPANY</h2>
-        <div class="col-md-6">
+        <h1>THE COMPANY</h1>
+        <div class="col-md-5">
             <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográﬁca e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobre- viveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.
-                Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                </p><p>Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
             </p>
         </div>
-        <div class="col-md-6">
-            <div class="col-md-2"></div>
-            <div class="col-md-2">
-                <ul>
-                    <li>SOLUTIONS</li>
-                    <li>EXPERIENCE</li>
-                    <li>STRATEGY</li>
-                    <li>QUALITY</li>
-                </ul>
+        <div class="col-md-offset-1 col-md-6">
+            <div class="col-md-1">
+                <img src="../images/icon_solutions.svg" alt="solutions">
+
+                <img class="icon_down" src="../images/icon_strategy.svg" alt="strategy">
             </div>
-            <div class="col-md-2"></div>
+            <div class="col-md-offset-1 col-md-2">
+                <li><b>SOLUTIONS</b></li>
+                <li><b>EXPERIENCE</b></li>
+                <li><b>STRATEGY</b></li>
+                <li><b>QUALITY</b></li>
+            </div>
+            <div class="col-md-offset-1 col-md-1">
+                <img src="../images/icon_experience.svg" alt="experience">
+                <img class="icon_down" src="../images/icon_quality.svg" alt="quality">
+            </div>
+        </div>
+    </div>
+    <div class="team">
+        <div class="brown_bar"></div>
+        <div class="team-logo">
+            <img src="../images/logo_company.svg">
+        </div>
+        <div class="team_up">
+            <div class="container">
+                    <h1>MEET OUR TEAM</h1>
+            </div>
+        </div>
+        <div class="team_down">
+            <div class="container">
+                <h1>WHAT WE OFFER</h1>
+            </div>
         </div>
     </div>
 </div>
 </body>
+<script src="../js/jquery-1.10.1.min.js"></script>
+<script src="../js/jquery.carouFredSel.js" type="text/javascript"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/main.js"></script>
 </html>
