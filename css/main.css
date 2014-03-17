@@ -271,11 +271,11 @@ text-align: right;
 .icon-moksie{
     background: url(../images/moksie_polity2014.png) 0 0 no-repeat;
     max-width: 112px;
-    margin-left: 267px;
+    margin-left: 205px;
 }
 
 #links_fo{
-    margin-right: 20px;
+    margin-right: 15px;
     font-family:'Dosis';
     color: #FFFFFF;
     font-size:9pt;
@@ -316,9 +316,36 @@ color: #ED6F23;
     margin-top: 72px;
 }
 
-.cenas{
+.icon-phone{
+    background: url(../images/icon_phone.svg) 0 0 no-repeat;
+    max-width: 20px;
+    margin-top: 5px;
+}
+
+.icon-mail{
+    background: url(../images/icon_mail.svg) 0 0 no-repeat;
+    max-width: 20px;
+    margin-top: 5px;
+    margin-left: 360px;
+}
+
+.adress{
     color: #FFFFFF;
     min-width: 300px;
     max-height: 20px;
     padding-top: 72px;
+}
+
+.phone{
+    color: #FFFFFF;
+    min-width: 200px;
+    max-height: 20px;
+    padding-top: 5px;
+}
+
+.mail{
+    color: #FFFFFF;
+    min-width: 100px;
+    max-height: 20px;
+    padding-top: 3px;
 }
