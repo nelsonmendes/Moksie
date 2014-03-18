@@ -318,11 +318,6 @@ bottom: 48%;
     position: relative;
 }
 
-.footer{
-    min-height: 216px;
-    background-color: #3D0000;
-}
-
 .footer-icon-L {
 padding-top: 50px;
 padding-left: 0px;
@@ -332,7 +327,7 @@ text-align: right;
 .icon-moksie{
     background: url(../images/moksie_polity2014.png) 0 0 no-repeat;
     max-width: 112px;
-    margin-left: 205px;
+    margin-left: 28%;
 }
 
 #links_fo{
@@ -345,7 +340,7 @@ text-align: right;
 
 #linksList{
     margin-top: 75px;
-    margin-left: 150px;
+    margin-left: 22%;
 }
 
 #linksList li
@@ -367,7 +362,7 @@ color: #ED6F23;
 
 .footer-icon{
     padding-top: 16px;
-    padding-left: 0px;
+    padding-left: 20px;
     float: left;
 }
 
@@ -387,7 +382,6 @@ color: #ED6F23;
     background: url(../images/icon_mail.svg) 0 0 no-repeat;
     max-width: 20px;
     margin-top: 5px;
-    margin-left: 360px;
 }
 
 .adress{
@@ -410,7 +404,6 @@ color: #ED6F23;
     max-height: 20px;
     padding-top: 3px;
 }
-
 .projects_last{
     height:180px;
     background-color: #E2E2E2;
@@ -422,4 +415,26 @@ color: #ED6F23;
 #project_last{
     background-color: #E2E2E2;
     width: 100%;
+}
+#page_footer{
+    min-height: 216px;
+    background-color: #3D0000;
+}
+
+#home_links .split{
+    float: left;
+    position: relative;
+}
+
+#footercss{
+    width: 100%;
+    padding: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    background-color: #3D0000;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
 }
