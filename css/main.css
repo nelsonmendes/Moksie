@@ -430,7 +430,9 @@ color: #ED6F23;
     float: left;
     position: relative;
 }
-
+#project_name{
+    color: #8B2E29;
+}
 #footercss{
     width: 100%;
     padding: 0;
@@ -448,5 +450,24 @@ color: #ED6F23;
     background-color: #471313;
 }
 .background_one{
-    background: url(../images/img_back_project_itsector.svg) -130px -350px no-repeat;
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.background_two{
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.background_three{
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.background_four{
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.row_padding{
+    padding-top: 70px;
+}
+.row_projects_padding{
+    padding-top: 30px;
 }
