@@ -402,8 +402,13 @@ color: #ED6F23;
     max-height: 20px;
     padding-top: 3px;
 }
+.logo_company{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .projects_last{
-    height:180px;
+    min-height:180px;
     background-color: #E2E2E2;
 }
 #project_first{
@@ -423,6 +428,7 @@ color: #ED6F23;
     float: left;
     position: relative;
 }
+<<<<<<< HEAD
 
 #wwOcss{
     width: 100%;
@@ -437,6 +443,10 @@ color: #ED6F23;
     border-radius: 0px;
     background-size: cover;
     min-height: 500px;
+}
+
+#project_name{
+    color: #8B2E29;
 }
 
 #footercss{
@@ -454,4 +464,26 @@ color: #ED6F23;
 .separator{
     height:20px;
     background-color: #471313;
+}
+.background_one{
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.background_two{
+    min-height: 450px;
+    background: url(../images/img_back_project_opt.svg) 300px -300px no-repeat;
+}
+.background_three{
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.background_four{
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.row_padding{
+    padding-top: 70px;
+}
+.row_projects_padding{
+    padding-top: 30px;
 }
