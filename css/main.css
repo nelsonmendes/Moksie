@@ -49,21 +49,22 @@ font-weight:bold;
 .wwO-icon {
 padding-top: 50px;
 padding-left: 0px;
-text-align: right;
+position: relative;
+
 }
 
 .wwO-h1{
     font-family:'Dosis';
     font-size: 18pt;
     color:#FFFFFF;
-    max-height: 50px;
-    max-width: 140px;
 }
 
 .wwO-h2{
     font-family:'Dosis';
     font-size: 10pt;
     color:#FFFFFF;
+    max-height: 50px;
+    max-width: 400px;
 }
 
 .icon-solutions{
@@ -216,17 +217,6 @@ bottom: 48%;
 .brown_bar {
     height: 28px;
     background-color: #3D0000;
-}
-
-.team-logo {
-    position:absolute;
-    width:20%;
-}
-.team-logo img{
-    position:relative;
-    top: -120px;
-    left: 200px;
-    max-width: 100%;
 }
 
 .team-content {
