@@ -438,3 +438,7 @@ color: #ED6F23;
     -webkit-border-radius: 0px;
     border-radius: 0px;
 }
+.separator{
+    height:20px;
+    background-color: #471313;
+}
