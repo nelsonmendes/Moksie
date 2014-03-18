@@ -44,10 +44,25 @@ background-size: 100% 100%;
 .navbar-collapse{
 border-top: 0;
 }
-#links_pr:visited{
-	background: url(../images/marker.png) center bottom no-repeat;
-}
 
+
+#links_pr:hover
+{
+background: url(../images/icon_active_button.svg) 0 0 no-repeat;
+background-position:center bottom;
+}
+#links_pr:active
+{
+background: url(../images/icon_active_button.svg) 0 0 no-repeat;
+background-position:center bottom;
+}
+#links_pr_active{
+    padding-top: 44px;
+    font-family:'Dosis';
+    font-weight:bold;
+    color:white;
+    color:#3D0000;
+}
 #topbarcss{
 	width: 100%;
     padding: 0;
@@ -65,5 +80,8 @@ border-top: 0;
     -moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
 	border-radius: 0px;
-    
+}
+.actived{
+    background: url(../images/icon_active_button.svg) 0 0 no-repeat;
+    background-position:center bottom;
 }
