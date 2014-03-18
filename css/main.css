@@ -404,8 +404,13 @@ color: #ED6F23;
     max-height: 20px;
     padding-top: 3px;
 }
+.logo_company{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .projects_last{
-    height:180px;
+    min-height:180px;
     background-color: #E2E2E2;
 }
 #project_first{
@@ -441,4 +446,7 @@ color: #ED6F23;
 .separator{
     height:20px;
     background-color: #471313;
+}
+.background_one{
+    background: url(../images/img_back_project_itsector.svg) -130px -350px no-repeat;
 }
