@@ -1,5 +1,5 @@
 html,body{
-width: 100%;
+    width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -22,13 +22,11 @@ p{font-family:'Dosis';}
 
 
 #carrousel{
-width:100%;
+    width:100%;
 }
 
-.offer {
-    background: url("../images/what_we_offer_background.png") no-repeat;
-    background-size: cover;
-    min-height: 500px;
+#first_2 {
+width: 100%;
 }
 
 #links_wwO{
@@ -37,7 +35,7 @@ width:100%;
     font-family:'Dosis';
     font-weight:bold;
     font-size: 30pt;
-    color:#3d0000;
+    color: #3d0000;
     display: inline-block;
 }
 
@@ -51,15 +49,14 @@ font-weight:bold;
 .wwO-icon {
 padding-top: 50px;
 padding-left: 0px;
-text-align: right;
+position: relative;
+
 }
 
 .wwO-h1{
     font-family:'Dosis';
     font-size: 18pt;
     color:#FFFFFF;
-    max-height: 50px;
-    max-width: 140px;
 }
 
 .wwO-h2{
@@ -67,19 +64,19 @@ text-align: right;
     font-size: 10pt;
     color:#FFFFFF;
     max-height: 50px;
-    max-width: 140px;
+    max-width: 400px;
 }
 
 .icon-solutions{
     background: url(../images/icon_solutions.svg) 0 0 no-repeat;
     max-width: 50px;
-    margin-left: 267px;
+    margin-left: 42%;
 }
 
 .icon-experience{
     background: url(../images/icon_experience.svg) 0 0 no-repeat;
     max-width: 50px;
-    margin-left: 250px;
+    margin-left: 17%;
 }
 
 .icon-strategy{
@@ -307,11 +304,6 @@ bottom: 48%;
     position: relative;
 }
 
-.footer{
-    min-height: 216px;
-    background-color: #3D0000;
-}
-
 .footer-icon-L {
 padding-top: 50px;
 padding-left: 0px;
@@ -321,7 +313,7 @@ text-align: right;
 .icon-moksie{
     background: url(../images/moksie_polity2014.png) 0 0 no-repeat;
     max-width: 112px;
-    margin-left: 205px;
+    margin-left: 28%;
 }
 
 #links_fo{
@@ -334,7 +326,7 @@ text-align: right;
 
 #linksList{
     margin-top: 75px;
-    margin-left: 150px;
+    margin-left: 22%;
 }
 
 #linksList li
@@ -356,7 +348,7 @@ color: #ED6F23;
 
 .footer-icon{
     padding-top: 16px;
-    padding-left: 0px;
+    padding-left: 20px;
     float: left;
 }
 
@@ -376,12 +368,11 @@ color: #ED6F23;
     background: url(../images/icon_mail.svg) 0 0 no-repeat;
     max-width: 20px;
     margin-top: 5px;
-    margin-left: 360px;
 }
 
 .adress{
     color: #FFFFFF;
-    min-width: 300px;
+    min-width: 400px;
     max-height: 20px;
     padding-top: 72px;
 }
@@ -395,7 +386,91 @@ color: #ED6F23;
 
 .mail{
     color: #FFFFFF;
-    min-width: 100px;
+    min-width: 200px;
     max-height: 20px;
     padding-top: 3px;
+}
+.logo_company{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projects_last{
+    min-height:180px;
+    background-color: #E2E2E2;
+}
+#project_first{
+    background-color: #C5C5C5;
+    width: 100%;
+}
+#project_last{
+    background-color: #E2E2E2;
+    width: 100%;
+}
+#page_footer{
+    min-height: 216px;
+    background-color: #3D0000;
+}
+
+#home_links .split{
+    float: left;
+    position: relative;
+}
+
+#wwOcss{
+    width: 100%;
+    padding: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    background: url("../images/what_we_offer_background.png") no-repeat;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#project_name{
+    color: #8B2E29;
+}
+
+#footercss{
+    width: 100%;
+    padding: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    background-color: #3D0000;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.separator{
+    height:20px;
+    background-color: #471313;
+}
+.background_one{
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.background_two{
+    min-height: 450px;
+    background: url(../images/img_back_project_opt.svg) 300px -300px no-repeat;
+}
+.background_three{
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.background_four{
+    min-height: 450px;
+    background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
+}
+.row_padding{
+    padding-top: 70px;
+}
+.row_projects_padding{
+    padding-top: 30px;
 }
