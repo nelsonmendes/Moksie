@@ -22,13 +22,11 @@ p{font-family:'Dosis';}
 
 
 #carrousel{
-width:100%;
+    width:100%;
 }
 
-.offer {
-    background: url("../images/what_we_offer_background.png") no-repeat;
-    background-size: cover;
-    min-height: 500px;
+#first_2 {
+width: 100%;
 }
 
 #links_wwO{
@@ -73,13 +71,13 @@ text-align: right;
 .icon-solutions{
     background: url(../images/icon_solutions.svg) 0 0 no-repeat;
     max-width: 50px;
-    margin-left: 267px;
+    margin-left: 42%;
 }
 
 .icon-experience{
     background: url(../images/icon_experience.svg) 0 0 no-repeat;
     max-width: 50px;
-    margin-left: 250px;
+    margin-left: 17%;
 }
 
 .icon-strategy{
@@ -424,6 +422,21 @@ color: #ED6F23;
 #home_links .split{
     float: left;
     position: relative;
+}
+
+#wwOcss{
+    width: 100%;
+    padding: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    background: url("../images/what_we_offer_background.png") no-repeat;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-size: cover;
+    min-height: 500px;
 }
 
 #footercss{
