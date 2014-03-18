@@ -183,16 +183,6 @@ bottom: 48%;
     bottom: 62%;
 }
 
-@media (min-width: 926px) { /* Insert your own breakpoint as needed */
- .mobile-menu { display: none; }
-}
- 
-@media (max-width: 925px) { /* Insert your own breakpoint as needed */
- .mobile-menu { display: block; margin-bottom: 9px;}
- nav#mainNav .nav { display: none; }
- nav#mainNav.navbar .nav>li { width: 100%; }
-}
-
 .container {
     margin-top: 0px !important;
 }

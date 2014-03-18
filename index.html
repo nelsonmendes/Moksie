@@ -3,7 +3,7 @@
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 			<meta name="HandheldFriendly" content="True">
-			<meta name="viewport" content="initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta name="apple-mobile-web-app-capable" content="yes">
 			<meta name="apple-mobile-web-app-status-bar-style" content="black">
 			<meta http-equiv="cleartype" content="on">
@@ -12,6 +12,7 @@
 			<link href="css/main.css" rel="stylesheet">
 		    <link href="css/carousel.css" rel="stylesheet">
 		    <link href="css/navbar.css" rel="stylesheet">
+            <link href="css/responsive.css" rel="stylesheet">
 			<!--<link rel="shortcut icon" href="../img/" /> Icon da Moksie -->
 		</head>
 		<body>
@@ -37,9 +38,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a id="links_pr" href="#">HOME</a></li>
+        <li class="active"><a id="links_pr" href="index.html">HOME</a></li>
         <li><a id="links_pr" href="pages/about.html">ABOUT</a></li>
-        <li><a id="links_pr" href="#">PROJECTS</a></li>
+        <li><a id="links_pr" href="pages/projects.html">PROJECTS</a></li>
         <li><a id="links_pr" href="#">TEAM</a></li>
         <li><a id="links_pr" href="#">CONTACTS</a></li>  
       </ul>
@@ -48,7 +49,7 @@
 </nav>
 </div>
 <!-- HEADER END-->
-<div class="container">
+<div class="container hidden-phone">
     <div class="row">
         <!-- Carousel -->
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -56,7 +57,6 @@
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -66,51 +66,29 @@
                     <div class="header-text hidden-xs">
                         <div class="col-md-12 text-center">
                             <h2>
-                                <span>Welcome to <strong>LOREM IPSUM</strong></span>
+                                <span>Welcome to <strong>Moksie</strong></span>
                             </h2>
                             <br>
                             <h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                <span>Moksie</span>
                             </h3>
                             <br>
-                            <div class="">
-                                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
                         </div>
                     </div><!-- /header-text -->
                 </div>
                 <div class="item">
-                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Second slide">
+                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="First slide">
                     <!-- Static Header -->
                     <div class="header-text hidden-xs">
                         <div class="col-md-12 text-center">
                             <h2>
-                                <span>Welcome to LOREM IPSUM</span>
+                                <span>Welcome to <strong>Moksie</strong></span>
                             </h2>
                             <br>
                             <h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                <span>Moksie</span>
                             </h3>
                             <br>
-                            <div class="">
-                                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
-                        </div>
-                    </div><!-- /header-text -->
-                </div>
-                <div class="item">
-                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Third slide">
-                    <!-- Static Header -->
-                    <div class="header-text hidden-xs">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                                <span>Welcome to LOREM IPSUM</span>
-                            </h2>
-                            <br>
-                            <h3>
-                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </h3>
-                            <br>
-                            <div class="">
-                                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
                         </div>
                     </div><!-- /header-text -->
                 </div>
