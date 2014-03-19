@@ -26,12 +26,12 @@ p{font-family:'Dosis';}
 }
 
 #first_2 {
-width: 100%;
+    width: 100%;
 }
 
 #links_wwO{
-    margin-top: 68px;
-    margin-left: 17%;
+    margin-top: 40px;
+    margin-left: 12%;
     font-family:'Dosis';
     font-weight:bold;
     font-size: 30pt;
@@ -53,18 +53,20 @@ position: relative;
 
 }
 
-.wwO-h1{
+.wwO h1{
     font-family:'Dosis';
     font-size: 18pt;
     color:#FFFFFF;
+    margin-left: 20%;
 }
 
-.wwO-h2{
+.wwO h2{
     font-family:'Dosis';
     font-size: 10pt;
     color:#FFFFFF;
     max-height: 50px;
     max-width: 400px;
+    margin-left: 20%;
 }
 
 .icon-solutions{
@@ -456,6 +458,23 @@ color: #ED6F23;
 #home_links .split{
     float: left;
     position: relative;
+}
+
+.wwO-content-up {
+   background: #B75149;
+}
+
+.wwO-background-img{
+    background: url("../images/img_back_conceitos_home.svg") 0 0 no-repeat;
+    background-position: center;    
+}
+.wwO-background-img2{
+    background: url("../images/img_back_conceitos_home.svg") center bottom no-repeat;
+    background-position: center;    
+}
+
+.wwO-content-down {
+    background-color: #C63F36;
 }
 
 #wwOcss{
