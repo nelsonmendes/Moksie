@@ -91,93 +91,129 @@ position: relative;
     margin-left: 250px;
 }
 
-.icon-pocket {
-background: #fff url(../images/pocket_icon.png) 0 0 no-repeat;
-background-position:center;
-max-width: 100%;
-}
-
-.icon-pocket:hover {
-background: #fff url(../images/pocket_icon_hover.png) 0 0 no-repeat;
-background-position:center;
-max-width: 100%;
-}
-
-.icon-travel {
-background: #fff url(../images/travel_icon.png) 0 0 no-repeat;
-background-position:center;
-max-width: 100%;
-}
-.icon-travel:hover {
-background: #fff url(../images/travel_icon_hover.png) 0 0 no-repeat;
-background-position:center;
-max-width: 100%;
-}
-.icon-executive {
-background: #fff url(../images/executive_icon.png) 0 0 no-repeat;
-background-position:center;
-max-width: 100%;
-}
-.icon-sounds {
-background: #fff url(../images/sounds_icon.png) 0 0 no-repeat;
-background-position:center;
-max-width: 100%;
-
-}
 .project-icon {
-text-align: center;
-padding-top: 10%;
-padding-bottom: 10%;
-background-color: rgb(230, 230, 230);
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+.project-icon h3 {
+    color: #B3473E;
+    font-size:  16pt;
+    padding-bottom: 20px;
+}
+
+.project-icon img{
+    padding-top: 20px;
+    max-width: 100%;
+}
+
+.icon-pocket:hover, .icon-travel:hover, .icon-executive:hover, .icon-sounds:hover {
+    background: url(../images/hexagono_hover_concepts.svg) 0 0 no-repeat;
+    background-position: center;
+    max-width: 100%;
+}
+
+.icon-pocket:hover h3, .icon-travel:hover h3, .icon-executive:hover h3, .icon-sounds h3 {
+     color: white;
+ }
+
+.icon-pocket h3:hover, .icon-travel h3:hover, .icon-executive h3:hover, .icon-sounds h3:hover{
+    color: #ED6F23;
+    cursor: pointer;
+}
+
+.icon-pocket:hover img {
+    content: url(../images/icon_pocket_hover.svg);
+    max-width: 100%;
+}
+
+.icon-travel:hover img {
+    content: url(../images/icon_travel_hover.svg);
+}
+
+
+.icon-executive:hover img {
+    content: url(../images/icon_executive_hover.svg);
+    max-width: 100%;
+}
+
+.icon-sounds:hover img {
+    content: url(../images/icon_sounds_hover.svg);
+    max-width: 100%;
+}
+
+.project-icons {
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .projects-home {
-max-width: 100%;
-background: url("../images/back_proj_home.png") no-repeat;
-background-size: contain;
-min-height: 501px;
-position: relative;
+    height: 500px;
+    background: #E6E6E6 url('../images/img_back_ourprojets_home.svg') left no-repeat;
+    position: relative;
 }
 
-.base-projects-home {
-max-width: 100%;
-background: url("../images/back_proj_home.png") no-repeat;
-background-size: contain;
-min-height: 501px;
-padding:0px;
-margin-top: 0px !important;
+.projects-home h1 {
+    position:relative;
+    top: 60px;
+    color: #B1433A;
+    font-size: 30pt;
 }
 
 .pocket-box {
-position: absolute;
-padding: 6%;
-border: 1px;
-left: 20%;
-bottom: 20%;
+    position: relative;
+    top: 230px;
+}
+
+.pocket-box:hover img{
+    content: url(../images/pocketprojects_hover.svg);
+}
+
+.pocket-box:hover {
+    position: relative;
+    top: 130px;
 }
 
 .travel-box {
-position: absolute;
-padding: 6%;
-border: 1px;
-left: 36%;
-bottom: 34%;
+    position: relative;
+    top: 152px;
+}
+
+.travel-box:hover img{
+    content: url(../images/travelprojects_hover.svg);
+}
+
+.travel-box:hover {
+    position: relative;
+    top: 60px;
 }
 
 .executive-box {
-position: absolute;
-padding: 6%;
-border: 1px;
-left: 52%;
-bottom: 48%;
+    position: relative;
+    top: 70px;
+}
+
+.executive-box:hover img{
+    content: url(../images/executiveprojects_hover.svg);
+}
+
+.executive-box:hover {
+    position: relative;
+    top: -20px;
 }
 
 .sounds-box {
-    position: absolute;
-    padding: 6%;
-    border: 1px;
-    left: 68%;
-    bottom: 62%;
+    position: relative;
+    top: 0px;
+}
+
+.sounds-box:hover img{
+    content: url(../images/soundsprojects_hover.svg);
+}
+
+.sounds-box:hover {
+    position: relative;
+    top: -70px;
 }
 
 .container {
@@ -198,6 +234,10 @@ bottom: 48%;
     padding-top: 10px;
     padding-left: 10%;
     text-align:justify;
+}
+
+.company p:last-child {
+    padding-bottom: 100px;
 }
 
 .company li{
@@ -280,6 +320,7 @@ bottom: 48%;
 
 .organization-chart {
     height: 540px;
+    background: #E6E6E6 url('../images/img_back_ourprojets_home.svg') left no-repeat;
 }
 
 .chart-icon-ceo:hover {
@@ -473,4 +514,49 @@ color: #ED6F23;
 }
 .row_projects_padding{
     padding-top: 30px;
+}
+
+/*CONTACTS*/
+
+.morada p {
+    padding-left: 50px;
+    margin: 0px;
+}
+
+.morada h1 {
+    margin-bottom: 40px;
+}
+
+.docentes {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #E6E6E6 url('../images/img_back_docentes_contacts.svg') left no-repeat;
+}
+
+.find_us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.docentes h1, .find_us h1 {
+    color: #B1433A;
+    font-size: 30pt;
+    font-family: Dosis Semi-Bold 600;
+}
+
+.docentes-photo img {
+    margin-top: 20px;
+}
+
+.docentes-nomes {
+    padding-left: 50px;
+}
+
+.docentes-nomes p {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.contact-name {
+    margin-top: 0px !important;
 }
