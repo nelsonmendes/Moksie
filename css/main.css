@@ -260,16 +260,25 @@ position: relative;
 }
 
 .team-content {
-    background-image: -webkit-linear-gradient(180deg, #B75149 94%, #96342f 0%, rgba(150,52,47,1) 52%, #B75149 52%);
-    background-image: -moz-linear-gradient(180deg, #96342f 0%,rgb(150,52,47) 52%,#B75149 52%,#B75149 94%);
-    background-image: -o-linear-gradient(180deg, #96342f 0%,rgb(150,52,47) 52%,#B75149 52%,#3d0000 94%);
-    background-image: linear-gradient(180deg, #B75149 0%,rgb(150,52,47) 52%,#C63F36 52%,#C63F36 94%);
+    background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #96342f 0%,rgb(150,52,47) 52%,#3d0000 52%,#3d0000 94%);
+    background-image: -moz-linear-gradient(top, #96342f 0%,rgb(150,52,47) 52%,#3d0000 52%,#3d0000 94%);
+    background-image: -o-linear-gradient(top, #96342f 0%,rgb(150,52,47) 52%,#3d0000 52%,#3d0000 94%);
+    background-image: linear-gradient(top, #96342f 0%,rgb(150,52,47) 52%,#3d0000 52%,#3d0000 94%);
+}
+
+.team-content-up {
+    background: url(../images/img_back_meet_team_about.svg) left no-repeat;
+}
+
+.team-content-down {
+    background: #621411;
 }
 
 .team h1 {
     margin-top: 40px;
     color: #ffffff;
-    padding-bottom: 70px;
+    padding-bottom: 100px;
     text-align: left;
 }
 
@@ -288,61 +297,84 @@ position: relative;
     font-size: 16px;
 }
 
+.team-scroll ol{
+    position: static;
+}
+
+.team-indicators li.active{
+  background-color: #ED6F23;
+}
+
 .organization-chart .container h1{
-    position:relative;
-    top: 40px;
     color: #3D0000;
 }
 
-.chart-icons {
-    position: relative;
+
+.chart-icon-ceo, .chart-icon-design, .chart-icon-leaders, .chart-icon-quality{
+    margin-bottom: 50px;
 }
 
-.chart-icon-ceo {
-    position: relative;
-    top: 230px;
+.hover-orange:hover {
+    color: #ED6F23 !important;
+    cursor: default;
 }
 
-.chart-icon-design {
-    position: relative;
-    top: 152px;
-}
+@media (min-width: 1000px) {
+    .organization-chart .container h1{
+        position:relative;
+        top: 40px;
+    }
 
-.chart-icon-leaders {
-    position: relative;
-    top: 70px;
-}
+    .chart-icons {
+        position: relative;
+    }
 
-.chart-icon-quality {
-    position: relative;
-    top: 0px;
+    .chart-icon-ceo {
+        position: relative;
+        top: 230px;
+    }
+
+    .chart-icon-design {
+        position: relative;
+        top: 152px;
+    }
+
+    .chart-icon-leaders {
+        position: relative;
+        top: 70px;
+    }
+
+    .chart-icon-quality {
+        position: relative;
+        top: 0px;
+    }
+
+    .chart-icon-ceo img:hover {
+        content: url(../images/icon_ceo_back_hover.svg);
+        position: relative;
+        top: -80px;
+    }
+
+    .chart-icon-design img:hover {
+        content: url(../images/icon_designdepart_back_hover.svg);
+        position: relative;
+        top: -90px;
+    }
+
+    .chart-icon-leaders img:hover {
+        content: url(../images/icon_leaders_back_hover.svg);
+        position: relative;
+    }
+
+    .chart-icon-quality img:hover {
+        content: url(../images/icon_qualitydepart_back_hover.svg);
+        position: relative;
+    }
 }
 
 .organization-chart {
-    height: 540px;
+    min-height: 540px;
     background: #E6E6E6 url('../images/img_back_ourprojets_home.svg') left no-repeat;
-}
-
-.chart-icon-ceo:hover {
-    content: url(../images/icon_ceo_back_hover.svg);
-    position: relative;
-    top: 80px;
-}
-
-.chart-icon-design:hover {
-    content: url(../images/icon_designdepart_back_hover.svg);
-    position: relative;
-    top: 32px;
-}
-
-.chart-icon-leaders:hover {
-    content: url(../images/icon_leaders_back_hover.svg);
-    position: relative;
-}
-
-.chart-icon-quality:hover {
-    content: url(../images/icon_qualitydepart_back_hover.svg);
-    position: relative;
 }
 
 .footer-icon-L {
