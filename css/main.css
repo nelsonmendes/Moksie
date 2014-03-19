@@ -150,72 +150,79 @@ position: relative;
 }
 
 .projects-home {
-    height: 500px;
+    min-height: 500px;
     background: #E6E6E6 url('../images/img_back_ourprojets_home.svg') left no-repeat;
     position: relative;
 }
 
-.projects-home h1 {
-    position:relative;
-    top: 60px;
-    color: #B1433A;
-    font-size: 30pt;
-}
-
-.pocket-box {
-    position: relative;
-    top: 230px;
-}
-
-.pocket-box:hover img{
-    content: url(../images/pocketprojects_hover.svg);
-}
-
-.pocket-box:hover {
-    position: relative;
-    top: 130px;
-}
-
-.travel-box {
-    position: relative;
-    top: 152px;
-}
-
-.travel-box:hover img{
-    content: url(../images/travelprojects_hover.svg);
-}
-
-.travel-box:hover {
-    position: relative;
-    top: 60px;
-}
-
-.executive-box {
-    position: relative;
-    top: 70px;
-}
-
-.executive-box:hover img{
-    content: url(../images/executiveprojects_hover.svg);
-}
-
-.executive-box:hover {
-    position: relative;
-    top: -20px;
-}
-
 .sounds-box {
-    position: relative;
-    top: 0px;
+    margin-bottom: 20px;
 }
 
-.sounds-box:hover img{
-    content: url(../images/soundsprojects_hover.svg);
-}
+@media(min-width: 1000px) {
 
-.sounds-box:hover {
-    position: relative;
-    top: -70px;
+    .projects-home h1 {
+        position:relative;
+        top: 60px;
+        color: #B1433A;
+        font-size: 30pt;
+    }
+
+    .pocket-box {
+        position: relative;
+        top: 230px;
+    }
+
+    .pocket-box:hover img{
+        content: url(../images/pocketprojects_hover.svg);
+    }
+
+    .pocket-box:hover {
+        position: relative;
+        top: 130px;
+    }
+
+    .travel-box {
+        position: relative;
+        top: 152px;
+    }
+
+    .travel-box:hover img{
+        content: url(../images/travelprojects_hover.svg);
+    }
+
+    .travel-box:hover {
+        position: relative;
+        top: 60px;
+    }
+
+    .executive-box {
+        position: relative;
+        top: 70px;
+    }
+
+    .executive-box:hover img{
+        content: url(../images/executiveprojects_hover.svg);
+    }
+
+    .executive-box:hover {
+        position: relative;
+        top: -20px;
+    }
+
+    .sounds-box {
+        position: relative;
+        top: 0px;
+    }
+
+    .sounds-box:hover img{
+        content: url(../images/soundsprojects_hover.svg);
+    }
+
+    .sounds-box:hover {
+        position: relative;
+        top: -70px;
+    }
 }
 
 .container {
