@@ -115,7 +115,7 @@ position: relative;
     max-width: 100%;
 }
 
-.icon-pocket:hover h3, .icon-travel:hover h3, .icon-executive:hover h3, .icon-sounds h3 {
+.icon-pocket:hover h3, .icon-travel:hover h3, .icon-executive:hover h3, .icon-sounds:hover h3 {
      color: white;
  }
 
