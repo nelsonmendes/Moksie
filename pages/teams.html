@@ -1,22 +1,22 @@
 <html>
-	<html lang="en">
-		<head>
-			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<meta name="HandheldFriendly" content="True">
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="apple-mobile-web-app-capable" content="yes">
-			<meta name="apple-mobile-web-app-status-bar-style" content="black">
-			<meta http-equiv="cleartype" content="on">
+    <html lang="en">
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <meta name="HandheldFriendly" content="True">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+            <meta name="apple-mobile-web-app-status-bar-style" content="black">
+            <meta http-equiv="cleartype" content="on">
             <link href='http://fonts.googleapis.com/css?family=Dosis:400,500,600,700' rel='stylesheet' type='text/css'>
-			<link href="css/bootstrap.min.css" rel="stylesheet">
-			<link href="css/main.css" rel="stylesheet">
-		    <link href="css/carousel.css" rel="stylesheet">
-		    <link href="css/navbar.css" rel="stylesheet">
-            <link href="css/responsive.css" rel="stylesheet">
-			<!--<link rel="shortcut icon" href="../img/" /> Icon da Moksie -->
-		</head>
-		<body>
-			<!-- HEADER START -->  
+            <link href="../css/bootstrap.min.css" rel="stylesheet">
+            <link href="../css/main.css" rel="stylesheet">
+            <link href="../css/carousel.css" rel="stylesheet">
+            <link href="../css/navbar.css" rel="stylesheet">
+            <link href="../css/responsive.css" rel="stylesheet">
+            <!--<link rel="shortcut icon" href="../img/" /> Icon da Moksie -->
+        </head>
+        <body>
+            <!-- HEADER START -->  
 
 
 <div id="topbarcss" class="container">
@@ -38,10 +38,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="actived"><a id="links_pr_active" class="actived_text" href="index.html">HOME</a></li>
+        <li><a id="links_pr" class="actived_text" href="index.html">HOME</a></li>
         <li><a id="links_pr" href="pages/about.html">ABOUT</a></li>
         <li><a id="links_pr" href="pages/projects.html">PROJECTS</a></li>
-        <li><a id="links_pr" href="#">TEAM</a></li>
+        <li class="actived"><a id="links_pr_active" href="pages/teams.html">TEAM</a></li>
         <li><a id="links_pr" href="#">CONTACTS</a></li>  
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -49,125 +49,99 @@
 </nav>
 </div>
 <!-- HEADER END-->
-<div class="container hidden-phone">
-    <div class="row">
-        <!-- Carousel -->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="First slide">
-                    <!-- Static Header -->
-                    <div class="header-text hidden-xs">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                                <span>Welcome to <strong>Moksie</strong></span>
-                            </h2>
-                            <br>
-                            <h3>
-                                <span>Moksie</span>
-                            </h3>
-                            <br>
-                        </div>
-                    </div><!-- /header-text -->
-                </div>
-                <div class="item">
-                    <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="First slide">
-                    <!-- Static Header -->
-                    <div class="header-text hidden-xs">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                                <span>Welcome to <strong>Moksie</strong></span>
-                            </h2>
-                            <br>
-                            <h3>
-                                <span>Moksie</span>
-                            </h3>
-                            <br>
-                        </div>
-                    </div><!-- /header-text -->
-                </div>
-            </div>
-        </div><!-- /carousel -->
+
+
+
+<!-- Content -->
+<!--EBANKIT-->
+<div id="project_first" class="container">
+    <div class="container background_one">
+        <div class="row projects" style="padding-top: 5%;">
+            <div class="col-md-6"><img class="logo_company" src="../images/team_pocket_photo.svg"></div>
+            <div class="col-md-4"><h1 id="project_name">POCKET</h1></div>
+            <div class="col-md-4"><img class="logo_team" src="../images/icon_pocket_hover.svg"></div>
+            <div class="col-md-4 texto">Project Manager -> André Silva
+            <p>Quality & Test Manager -> Lara Marinha
+            <p>Architecture Manager -> Afonso Caldas
+            <p>Requirements Manager -> Victor Cerqueira
+            <p>Content Manager -> Hugo Gonçalves</div>
+            <div class="col-md-2"></div>
+
+        </div>
     </div>
 </div>
-<div class="grey-background">
-<div id="icons_done" class="row">
-    <div class="project-icons container">
-        <div class="col-md-3 project-icon icon-pocket container">
-        </div>
-        <div class="col-md-3 project-icon icon-travel container">
-        </div>
-        <div class="col-md-3 project-icon icon-executive container">
-        </div>
-        <div class="col-md-3 project-icon icon-sounds container">
+
+<div class="separator"></div>
+
+<!--ON THE MOVE-->
+<div id="project_first" class="container">
+    <div class="container background_one">
+        <div class="row projects" style="padding-top: 5%;">
+            <div class="col-md-6">
+                <div class="col-md-12"><h1 id="project_name">TRAVEL</h1></div>
+                <div class="col-md-12"><img class="logo_team" src="../images/icon_travel_hover.svg"></div>
+                <div class="col-md-12 texto">Project & Requirements Manager -> David Clemente
+                <p>Quality & Test & Documentation Manager -> Ricardo Pedroso
+                <p>Architecture & Technical Manager -> João Ladeiras
+                <p>UI Designer Manager -> Mariana Ornelas, João Henriques</div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-12"><img class="logo_company" src="../images/team_pocket_photo.svg"></div>
+            </div>
         </div>
     </div>
- </div>
 </div>
 
-<div id="wwOcss" class="container">
-        <div class="container">
-            <div class="row">
-                <span><a id="links_wwO" href="#">WHAT WE OFFER</a></span>
-            </div>
-            <div class="row first_2">
-                <div class="col-md-12">
-                    <div class="col-md-6 wwO-h1" style="display:inline">
-                        <img src="images/icon_solutions.svg">SOLUTIONS</img>
-                        <div class="wwO-h2">
-                            O Lorem Ipsum é um texto modelo da indústria tipográﬁca e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
-                        </div>
-                    </div>
+<div class="separator"></div>
 
-                    <div class="col-md-6 wwO-h1" style="display:inline">
-                        <img src="images/icon_experience.svg">EXPERIENCE</img>
-                        <div class="wwO-h2">
-                            O Lorem Ipsum é um texto modelo da indústria tipográﬁca e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row first_2">
-                <div class="col-md-12">
-                    <div class="col-md-6 wwO-h1" style="display:inline">
-                        <img src="images/icon_strategy.svg">STRATEGY</img>
-                        <div class="wwO-h2" >
-                            O Lorem Ipsum é um texto modelo da indústria tipográﬁca e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
-                        </div>
-                    </div>
+<!--AMOB-->
 
-                    <div class="col-md-6 wwO-h1" style="display:inline">
-                        <img src="images/icon_quality.svg">QUALITY</img>
-                        <div class="wwO-h2" >
-                            O Lorem Ipsum é um texto modelo da indústria tipográﬁca e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
-                        </div>
-                    </div>
-                </div>
-            </div>
+<div id="project_first" class="container">
+    <div class="container background_one">
+        <div class="row projects" style="padding-top: 5%;">
+            <div class="col-md-6"><img class="logo_company" src="../images/team_pocket_photo.svg"></div>
+            <div class="col-md-4"><h1 id="project_name">EXECUTIVE</h1></div>
+            <div class="col-md-4"><img class="logo_team" src="../images/icon_executive_hover.svg"></div>
+            <div class="col-md-4 texto">Project Manager -> Pedro Letra
+            <p>Quality & Test Manager -> João Afonso
+            <p>Documentation Manager -> João Figueiredo
+            <p>Technical Manager -> Nelson Mendes
+            <p>Requirements Manager -> Marcos Oliveira
+            <p>Support Manager -> Pedro Rosa</div>
+            <div class="col-md-2"></div>
 
-        </div>
-</div>
-
-    <div class="row">
-        <div class="container base-projects-home">
-        <div class="projects-home">
-            <div class="pocket-box"></div>
-            <div class="travel-box"></div>
-            <div class="executive-box"></div>
-            <div class="sounds-box"></div>
-        </div>
         </div>
     </div>
-
-<div id="push">
-
 </div>
+
+<div class="separator"></div>
+
+
+<!--SOUNDS-->
+
+<div id="project_first" class="container">
+    <div class="container background_one">
+        <div class="row projects" style="padding-top: 5%;">
+            <div class="col-md-6">
+                <div class="col-md-12"><h1 id="project_name">SOUNDS</h1></div>
+                <div class="col-md-12"><img class="logo_team" src="../images/icon_sounds_hover.svg"></div>
+                <div class="col-md-12 texto">Project Manager -> Diogo Mendes
+                <p>Architecture & Technical Manager -> Alexey Silvesterov
+                <p>Quality & Test & Requirements Manager -> Daniel Teixeira
+                <p>Documentation Manager -> Luís Aly
+                <p>UI Designer Manager -> Sara Bastos
+                <p>Content Manager -> Mariana Sardon
+                <p>Support Manager -> Francisca Gonçalves</div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-12"><img class="logo_company" src="../images/team_pocket_photo.svg"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <div id="footercss" class="container">
     <footer id="page_footer">
@@ -199,10 +173,9 @@
     </footer>
 </div>
 
-
-		</body>
-		<script src="js/jquery-1.10.1.min.js"></script>
-        <script src="js/jquery.carouFredSel.js" type="text/javascript"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/main.js"></script>
-	</html>
+        </body>
+        <script src="../js/jquery-1.10.1.min.js"></script>
+        <script src="../js/jquery.carouFredSel.js" type="text/javascript"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/main.js"></script>
+    </html>
