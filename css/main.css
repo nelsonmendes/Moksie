@@ -96,6 +96,7 @@ position: relative;
 .project-icon {
     text-align: center;
     background-color: rgb(230, 230, 230);
+    cursor: pointer;
 }
 
 .project-icon h3 {
@@ -153,6 +154,10 @@ position: relative;
     min-height: 500px;
     background: #E6E6E6 url('../images/img_back_ourprojets_home.svg') left no-repeat;
     position: relative;
+}
+
+.projects-home img {
+    cursor: pointer;
 }
 
 .sounds-box {
@@ -268,6 +273,14 @@ position: relative;
     background-color: #3D0000;
 }
 
+.team-images {
+    margin-bottom: 10px;
+}
+
+.team-images p {
+    margin:0px;
+}
+
 .team-content {
     background-image: rgba(235,235,235,1);
     background-image: -webkit-linear-gradient(top, #96342f 0%,rgb(150,52,47) 52%,#3d0000 52%,#3d0000 94%);
@@ -287,14 +300,22 @@ position: relative;
 .team h1 {
     margin-top: 40px;
     color: #ffffff;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     text-align: left;
 }
 
 .team img {
-   padding-right: 10px;
-   padding-bottom: 15px;
-   max-width: 100%;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.team embed {
+    padding-right: 10px;
+    padding-bottom: 15px;
+    max-width: 100%;
+    margin-bottom: 10px;
 }
 
 .team {
@@ -308,6 +329,7 @@ position: relative;
 
 .team-scroll ol{
     position: static;
+    padding-left: 80px;
 }
 
 .team-indicators li.active{
@@ -325,7 +347,7 @@ position: relative;
 
 .hover-orange:hover {
     color: #ED6F23 !important;
-    cursor: default;
+    cursor: pointer;
 }
 
 @media (min-width: 1000px) {
@@ -361,7 +383,7 @@ position: relative;
     .chart-icon-ceo img:hover {
         content: url(../images/icon_ceo_back_hover.svg);
         position: relative;
-        top: -80px;
+        top: -90px;
     }
 
     .chart-icon-design img:hover {
