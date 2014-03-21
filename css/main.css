@@ -126,23 +126,7 @@ position: relative;
     cursor: pointer;
 }
 
-.icon-pocket:hover img {
-    content: url(../images/icon_pocket_hover.svg);
-    max-width: 100%;
-}
-
-.icon-travel:hover img {
-    content: url(../images/icon_travel_hover.svg);
-}
-
-
-.icon-executive:hover img {
-    content: url(../images/icon_executive_hover.svg);
-    max-width: 100%;
-}
-
-.icon-sounds:hover img {
-    content: url(../images/icon_sounds_hover.svg);
+.icon-pocket:hover img, icon-travel:hover img, .icon-executive:hover img, .icon-sounds:hover img{
     max-width: 100%;
 }
 
@@ -183,13 +167,14 @@ position: relative;
         top: 230px;
     }
 
-    .pocket-box:hover img{
-        content: url(../images/pocketprojects_hover.svg);
+    .pocket-box:hover{
+        position: relative;
+        top: 140px;
     }
 
-    .pocket-box:hover {
-        position: relative;
-        top: 130px;
+    .pocket-box:hover img {
+        content: url('../images/pocketprojects_hover.svg');
+        max-width: 100%;
     }
 
     .travel-box {
@@ -197,13 +182,13 @@ position: relative;
         top: 152px;
     }
 
-    .travel-box:hover img{
-        content: url(../images/travelprojects_hover.svg);
-    }
-
     .travel-box:hover {
         position: relative;
         top: 60px;
+    }
+
+    .travel-box:hover img {
+        content: url('../images/travelprojects_hover.svg');
     }
 
     .executive-box {
@@ -211,13 +196,13 @@ position: relative;
         top: 70px;
     }
 
-    .executive-box:hover img{
-        content: url(../images/executiveprojects_hover.svg);
-    }
-
     .executive-box:hover {
         position: relative;
         top: -20px;
+    }
+
+    .executive-box:hover img {
+        content: url('../images/executiveprojects_hover.svg');
     }
 
     .sounds-box {
@@ -225,13 +210,13 @@ position: relative;
         top: 0px;
     }
 
-    .sounds-box:hover img{
-        content: url(../images/soundsprojects_hover.svg);
-    }
-
     .sounds-box:hover {
         position: relative;
         top: -70px;
+    }
+
+    .sounds-box:hover img {
+        content: url('../images/soundsprojects_hover.svg');
     }
 }
 

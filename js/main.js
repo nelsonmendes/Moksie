@@ -11,7 +11,67 @@ $(document).ready(function(){
     if (photo1 != null)
        change_photos(0);
 
+    //icons teams
+    $('.icon-img').each(function(index) {
+        $(this).hover(function(){
+            $(this).attr('src',icons[index]['hover']);
+        },function(){
+            $(this).attr('src',icons[index]['normal']);
+        })
+    });
+
+    if(navigator.userAgent.search("Firefox")>-1)
+        project_icons.forEach(function(entry) {
+           var div = $(entry.class);
+
+           var icon = div.find('#project-icon-img');
+           icon.attr('src', entry.hover);
+           icon.attr('top',230);
+
+        });
 });
+
+var icons = [
+    {
+        "normal" : 'images/icon_pocket.svg',
+        "hover" : 'images/icon_pocket_hover.svg'
+    },
+    {
+        "normal" : 'images/icon_travel.svg',
+        "hover" : 'images/icon_travel_hover.svg'
+    },
+    {
+        "normal" : 'images/icon_executive.svg',
+        "hover" : 'images/icon_executive_hover.svg'
+    },
+    {
+        "normal" : 'images/icon_sounds.svg',
+        "hover" : 'images/icon_sounds_hover.svg'
+    }
+];
+
+var project_icons = [
+    {
+        "class" : 'pocket-box',
+        "normal" : 'images/pocketprojects.svg',
+        "hover" : 'images/pocketprojects_hover.svg'
+    },
+    {
+        "class" : 'travel-box',
+        "normal" : 'images/travelprojects.svg',
+        "hover" : 'images/travelprojects_hover.svg'
+    },
+    {
+        "class" : 'executive-box',
+        "normal" : 'images/executiveprojects.svg',
+        "hover" : 'images/executiveprojects_hover.svg'
+    },
+    {
+        "class" : 'sounds-box',
+        "normal" : 'images/soundsprojects.svg',
+        "hover" : 'images/soundsprojects_hover.svg'
+    }
+];
 
 function change_photos(page) {
     var  photo1 = document.getElementById('photo1');
