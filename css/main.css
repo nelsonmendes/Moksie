@@ -414,9 +414,8 @@ text-align: right;
 }
 
 .icon-moksie{
+    margin-left: 15px;
     background: url(../images/moksie_polity2014.png) 0 0 no-repeat;
-    max-width: 112px;
-    margin-left: 28%;
 }
 
 #links_fo{
@@ -455,24 +454,6 @@ color: #ED6F23;
     float: left;
 }
 
-.icon-adress{
-    background: url(../images/icon_adress.svg) 0 0 no-repeat;
-    max-width: 20px;
-    margin-top: 72px;
-}
-
-.icon-phone{
-    background: url(../images/icon_phone.svg) 0 0 no-repeat;
-    max-width: 20px;
-    margin-top: 5px;
-}
-
-.icon-mail{
-    background: url(../images/icon_mail.svg) 0 0 no-repeat;
-    max-width: 20px;
-    margin-top: 5px;
-}
-
 .adress{
     color: #FFFFFF;
     min-width: 400px;
@@ -492,6 +473,7 @@ color: #ED6F23;
     min-width: 200px;
     max-height: 20px;
     padding-top: 3px;
+    padding-bottom: 20px;
 }
 
 .logo_team{
@@ -533,15 +515,6 @@ color: #ED6F23;
     background-color: #E2E2E2;
     width: 100%;
 }
-#page_footer{
-    min-height: 216px;
-    background-color: #3D0000;
-}
-
-#home_links .split{
-    float: left;
-    position: relative;
-}
 
 .wwO-content-up {
    background: #B75149;
@@ -579,8 +552,13 @@ color: #ED6F23;
     color: #8B2E29;
 }
 
+.footer_pad{
+    padding-top: 5%;
+}
+
 #footercss{
     width: 100%;
+    min-height: 216px;
     padding: 0;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
