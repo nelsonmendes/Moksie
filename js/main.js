@@ -79,7 +79,10 @@ function change_photos(page) {
 
     for(var i = 0; i<4; i++) {
         var photo = photos[i];
-        document.getElementById('team-photo' + (i+1) + '-image').setAttribute('xlink:href','../images/team-photos/' + photo["img"] + '.JPG');
+        if(photo.name == "NELSON MENDES")
+            document.getElementById('team-photo' + (i+1) + '-image').setAttribute('src','../images/team-photos/nelsonmendes.JPG');
+        else
+            document.getElementById('team-photo' + (i+1) + '-image').setAttribute('src','../images/team-photos/' + 'team_foto_' + photo["img"] + '.svg');
         document.getElementById('photo' + (i+1) + '-name').innerHTML = photo["name"];
         document.getElementById('photo' + (i+1) + '-course').innerHTML = photo["course"];
 
@@ -95,7 +98,7 @@ var team_photos = [
         {
             "name": "ANDRÉ SILVA",
             "course": "Informática",
-            "img": "Andre"
+            "img": "andre"
         },
         {
             "name": "JOÃO FIGUEIREDO",
@@ -110,7 +113,7 @@ var team_photos = [
         {
             "name": "HELENA SOARES",
             "course": "Design de Comunicação",
-            "img": "helenasoares2"
+            "img": "helenasoares"
         }
     ],
     [
@@ -122,7 +125,7 @@ var team_photos = [
         {
             "name": "RICARDO PEDROSO",
             "course": "Informática",
-            "img": "Ricardo Pedroso"
+            "img": "ricardopedroso"
         },
         {
             "name": "FRANCISCA GONÇALVES",
@@ -132,7 +135,7 @@ var team_photos = [
         {
             "name": "DANIEL TEIXEIRA",
             "course": "Informática",
-            "img": "danielTeixeira"
+            "img": "danielteixeira"
         }
     ],
     [
@@ -149,7 +152,7 @@ var team_photos = [
         {
             "name": "DAVID CLEMENTE",
             "course": "Informática",
-            "img": "David"
+            "img": "david"
         },
         {
             "name": "JOÃO LADEIRAS",
@@ -166,7 +169,7 @@ var team_photos = [
         {
             "name": "MARIANA SARDON",
             "course": "Multimédia",
-            "img": "marianasardon2"
+            "img": "marianasardon"
         },
         {
             "name": "AFONSO CALDAS",
@@ -176,7 +179,7 @@ var team_photos = [
         {
             "name": "NELSON MENDES",
             "course": "Informática",
-            "img": "nelsonmendes"
+            "img": "individua"
         }
     ],
     [
@@ -188,12 +191,12 @@ var team_photos = [
         {
             "name": "VICTOR CERQUEIRA",
             "course": "Informática",
-            "img": "victor2"
+            "img": "victorcerqueira"
         },
         {
             "name": "PEDRO LETRA",
             "course": "Informática",
-            "img": "pedro"
+            "img": "pedroletra"
         },
         {
             "name": "JOÃO HENRIQUES",
