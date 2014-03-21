@@ -665,6 +665,12 @@ color: #ED6F23;
     margin-bottom: 0px;
 }
 
+#bordered_img{
+    border-width: 5px;
+     border-style:solid;
+    border-color:white;
+}
+
 .contact-name {
     margin-top: 0px !important;
 }
