@@ -79,6 +79,11 @@ function change_photos(page) {
 
     for(var i = 0; i<4; i++) {
         var photo = photos[i];
+        if(photo.name= "DIOGO MENDES") {
+            document.getElementsByClassName('1')[0].setAttribute("style","display:none")
+            document.getElementsByClassName('2')[0].setAttribute("style","display:inline");
+        }
+
         if(photo.name == "NELSON MENDES")
             document.getElementById('team-photo' + (i+1) + '-image').setAttribute('src','../images/team-photos/nelsonmendes.JPG');
         else
