@@ -650,3 +650,9 @@ color: #ED6F23;
 .contact-name {
     margin-top: 0px !important;
 }
+#mailto{
+    text-decoration:none;
+    color:#fff;}
+#footercss > div > div:nth-child(3) > div.col-md-7.mail > a{
+color:#fff;
+    }
