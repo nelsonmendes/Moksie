@@ -14,21 +14,11 @@ $(document).ready(function(){
     //icons teams
     $('.icon-img').each(function(index) {
         $(this).hover(function(){
-            $(this).attr('src',icons[index]['hover']);
+            $(this).find('img').attr('src',icons[index]['hover']);
         },function(){
-            $(this).attr('src',icons[index]['normal']);
+            $(this).find('img').attr('src',icons[index]['normal']);
         })
     });
-
-    if(navigator.userAgent.search("Firefox")>-1)
-        project_icons.forEach(function(entry) {
-           var div = $(entry.class);
-
-           var icon = div.find('#project-icon-img');
-           icon.attr('src', entry.hover);
-           icon.attr('top',230);
-
-        });
 });
 
 var icons = [
@@ -50,52 +40,40 @@ var icons = [
     }
 ];
 
-var project_icons = [
-    {
-        "class" : 'pocket-box',
-        "normal" : 'images/pocketprojects.svg',
-        "hover" : 'images/pocketprojects_hover.svg'
-    },
-    {
-        "class" : 'travel-box',
-        "normal" : 'images/travelprojects.svg',
-        "hover" : 'images/travelprojects_hover.svg'
-    },
-    {
-        "class" : 'executive-box',
-        "normal" : 'images/executiveprojects.svg',
-        "hover" : 'images/executiveprojects_hover.svg'
-    },
-    {
-        "class" : 'sounds-box',
-        "normal" : 'images/soundsprojects.svg',
-        "hover" : 'images/soundsprojects_hover.svg'
-    }
-];
-
 function change_photos(page) {
     var  photo1 = document.getElementById('photo1');
-    var photos = team_photos[page];
 
-    for(var i = 0; i<4; i++) {
-        var photo = photos[i];
-        if(photo.name= "DIOGO MENDES") {
-            document.getElementsByClassName('1')[0].setAttribute("style","display:none")
-            document.getElementsByClassName('2')[0].setAttribute("style","display:inline");
+    $('.team-image').each(function(index){
+        var div = $(this);
+        var current = div.find('.photo-active');
+        current.removeClass('photo-active');
+        current.addClass('photo-hidden');
+
+        var newPhoto = div.find('.' + (page+1));
+        newPhoto.removeClass('photo-hidden');
+        newPhoto.addClass('photo-active');
+
+        if(page < 6 || (page == 6 && index == 0)) {
+            var stats = team_photos[page][index];
+            div.find('.name').text(stats.name);
+            div.find('.course').text(stats.course);
+
+            var faculty = "Faculdade de Engenharia";
+            if(stats.course == "Design de Comunicação")
+                faculty = "Faculdade de Belas-Artes";
+
+            div.find('.faculty').text(faculty);
+
+            var uni = div.find('.uni');
+            if(uni.text() == '')
+                uni.text('Universidade do Porto');
         }
-
-        if(photo.name == "NELSON MENDES")
-            document.getElementById('team-photo' + (i+1) + '-image').setAttribute('src','../images/team-photos/nelsonmendes.JPG');
-        else
-            document.getElementById('team-photo' + (i+1) + '-image').setAttribute('src','../images/team-photos/' + 'team_foto_' + photo["img"] + '.svg');
-        document.getElementById('photo' + (i+1) + '-name').innerHTML = photo["name"];
-        document.getElementById('photo' + (i+1) + '-course').innerHTML = photo["course"];
-
-        var faculty = "Faculdade de Engenharia";
-        if(photo["course"] == "Design de Comunicação")
-            faculty = "Faculdade de Belas-Artes";
-        document.getElementById('photo' + (i+1) + '-faculty').innerHTML = faculty;
-    }
+        else {
+            div.find('p').each(function(){
+                $(this).text('');
+            })
+        }
+    });
 };
 
 var team_photos = [
@@ -184,7 +162,7 @@ var team_photos = [
         {
             "name": "NELSON MENDES",
             "course": "Informática",
-            "img": "individua"
+            "img": "nelsonmendes"
         }
     ],
     [
@@ -230,5 +208,13 @@ var team_photos = [
             "course": "Informática",
             "img": "marcosoliveira"
         }
+    ],
+    [
+        {
+            "name": "LARA MARINHA",
+            "course": "Informática",
+            "img": "lara"
+        }
+
     ]
 ]
