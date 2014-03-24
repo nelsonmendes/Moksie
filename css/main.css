@@ -810,6 +810,6 @@ body > div.grey-background > div > div.col-md-6.morada > p:nth-child(6) > a{
 }
 
 .actived{
-    background: url(../images/icon_active_button.svg) 0 0 no-repeat;
+    background: url(../images/icon_active_button_fundopagina.svg) 0 0 no-repeat;
     background-position:center bottom;
 }
