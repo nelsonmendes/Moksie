@@ -74,7 +74,7 @@ position: relative;
 
 .wwO p {
     font-family:'Dosis';
-    color:#FFFFFF;s
+    color:#FFFFFF;
 }
 
 .icon-solutions{
@@ -216,7 +216,6 @@ position: relative;
     }
 
     .pocket-box:hover img {
-        content: url('../images/pocketprojects_hover.svg');
         max-width: 100%;
     }
 
@@ -228,11 +227,7 @@ position: relative;
     .travel-box:hover {
         position: relative;
         top: 60px;
-    }
-
-    .travel-box:hover img {
-        content: url('../images/travelprojects_hover.svg');
-    }
+    }s
 
     .executive-box {
         position: relative;
@@ -329,7 +324,15 @@ position: relative;
     background-color: #3D0000;
 }
 
-.team-images {
+.triangle-right {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 50px 0 50px 86.6px;
+    border-color: transparent transparent transparent #ed7123;
+}
+
+.team-images > img{
     margin-bottom: 10px;
 }
 
@@ -383,7 +386,11 @@ position: relative;
     font-size: 16px;
 }
 
-.team-scroll ol{
+.team-scroll {
+    margin-bottom: 10px;
+}
+
+.team-scroll .team-indicators{
     position: static;
     padding-left: 80px;
 }

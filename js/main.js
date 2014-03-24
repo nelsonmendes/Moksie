@@ -7,9 +7,20 @@ $(document).ready(function(){
         $(this).addClass("active");
     });
 
-    var photo1 = document.getElementById('photo1');
-    if (photo1 != null)
-       change_photos(0);
+    var div = document.getElementById('team-carrousel');
+    if (div != null)
+    {
+
+        window.setInterval(function(){
+            var current = parseInt(div.getElementsByClassName('active')[0].getAttribute('id'));
+
+            if (current == 7)
+                current = 1;
+            else
+                current = current + 1;
+            div.getElementsByClassName(current)[0].click();
+            },5000);
+    }
 
     //icons teams
     $('.icon-img').each(function(index) {
