@@ -543,6 +543,7 @@ text-align: right;
 }
 
 .icon-moksie{
+    margin-top: 10px;
     margin-left: 15px;
     background: url(../images/moksie_polity2014.png) 0 0 no-repeat;
 }
