@@ -340,6 +340,10 @@ position: relative;
     margin:0px;
 }
 
+.uni {
+    margin-bottom: 10px !important;
+}
+
 .team-content {
     background-image: rgba(235,235,235,1);
     background-image: -webkit-linear-gradient(top, #96342f 0%,rgb(150,52,47) 52%,#3d0000 52%,#3d0000 94%);
@@ -543,6 +547,7 @@ text-align: right;
 }
 
 .icon-moksie{
+    margin-top: 10px;
     margin-left: 15px;
     background: url(../images/moksie_polity2014.png) 0 0 no-repeat;
 }
@@ -722,11 +727,11 @@ color: #ED6F23;
     background-color: #471313;
 }
 .background_one{
-    min-height: 450px;
+    min-height: 400px;
     background: url(../images/img_back_project_itsector.svg) -100px -300px no-repeat;
 }
 .background_two{
-    min-height: 450px;
+    min-height: 400px;
     background: url(../images/img_back_project_opt.svg) 300px -300px no-repeat;
 }
 .background_three{
@@ -810,7 +815,7 @@ body > div.grey-background > div > div.col-md-6.morada > p:nth-child(6) > a{
 }
 
 .actived{
-    background: url(../images/icon_active_button.svg) 0 0 no-repeat;
+    background: url(../images/icon_active_button_fundopagina.svg) 0 0 no-repeat;
     background-position:center bottom;
 }
 
